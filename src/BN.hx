@@ -3,6 +3,7 @@
 @:require("bn.js")
 #end
 extern class BN{
+	// function new(number : String);
 	function toString(base : UInt, ?length : UInt) : String;
 	function toNumber() : Float;
 	function toJSON() : String;
@@ -25,14 +26,14 @@ extern class BN{
 	function mod(b:BN) : BN;
 	function divRound(b:BN) : BN;
 
-	function ineg() : BN;
-	function iabs() : BN;
-	function iadd(b:BN) : BN;
-	function isub(b:BN) : BN;	
-	function imul(b:BN) : BN;
-	function isqr() : BN;
-	function ipow(b:BN) : BN;
-	function idiv(b:BN) : BN;
-	function imod(b:BN) : BN;
-	function idivRound(b:BN) : BN;
+	// function ineg() : BN;
+	// function iabs() : BN;
+	// function iadd(b:BN) : BN;
+	// function isub(b:BN) : BN;	
+	// function imul(b:BN) : BN;
+	// function isqr() : BN;
+	// function ipow(b:BN) : BN;
+	// function idiv(b:BN) : BN;
+	// function imod(b:BN) : BN;
+	// function idivRound(b:BN) : BN;
 }
