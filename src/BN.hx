@@ -3,7 +3,7 @@
 @:require("bn.js")
 #end
 extern class BN{
-	// function new(number : String);
+	function new(number : String);
 	function toString(base : UInt, ?length : UInt) : String;
 	function toNumber() : Float;
 	function toJSON() : String;
